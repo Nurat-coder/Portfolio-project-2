@@ -43,7 +43,7 @@ The aim of the project is to answer the following business questions using SQL:
 
 ## Data Cleaning
 
-I replaced 'unknown' values in categorical columns (job, marital, education, contact, poutcome) with NULL to reflect missing data.
+I replaced 'unknown' values in categorical columns (job, marital, education, contact, poutcome) with NULL to reflect missing data and I also removed duplicate value.
 
 ```sql
 Update bank2 
